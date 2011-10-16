@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Rails3DeviseRspecCucumber::Application.config.secret_token = 'e9cc99b6e2e41d3cd5dc9e0931555b65715720ab21a6733f6e09239d16b15e473154a46fde493abd86abb5487688e52301ca9b8272ddb5bc7977164549bcddec'
+B4::Application.config.secret_token = 'cda1eb2758de7220e720f688b28efce700c7e732f5cf1e86bde57a96c1d792899b9419bd990577455fd7ebe483a0aeb414281e45c0012e00310d0c75f7c1d364'

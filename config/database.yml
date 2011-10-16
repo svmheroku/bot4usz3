@@ -1,0 +1,27 @@
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: bot4usd
+  pool: 5
+  username: oracle
+  password:
+
+test: &test
+  adapter: postgresql
+  encoding: unicode
+  database: bot4ust
+  pool: 5
+  username: oracle
+  password:
+
+cucumber:
+  <<: *test
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: bot4usp
+  pool: 5
+  username: oracle
+  password:

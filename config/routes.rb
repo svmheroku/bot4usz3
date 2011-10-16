@@ -1,12 +1,4 @@
-Rails3DeviseRspecCucumber::Application.routes.draw do
-  #get \"users\/show\"
-
-  root :to => "home#index"
-
-  devise_for :users
-  resources :users, :only => :show
-
-
+B4::Application.routes.draw do
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

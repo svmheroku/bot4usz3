@@ -1,12 +1,6 @@
 require File.expand_path('../boot', __FILE__)
 
-# Pick the frameworks you want:
-require "active_record/railtie"
-require "action_controller/railtie"
-require "action_mailer/railtie"
-require "active_resource/railtie"
-require "sprockets/railtie"
-# require "rails/test_unit/railtie"
+require 'rails/all'
 
 if defined?(Bundler)
   # If you precompile assets before deploying to production, use this line
@@ -15,16 +9,8 @@ if defined?(Bundler)
   # Bundler.require(:default, :assets, Rails.env)
 end
 
-module Rails3DeviseRspecCucumber
+module B4
   class Application < Rails::Application
-
-    # don't generate RSpec tests for views and helpers
-    config.generators do |g|
-      g.view_specs false
-      g.helper_specs false
-      g.test_framework :rspec
-    end
-
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
@@ -51,7 +37,7 @@ module Rails3DeviseRspecCucumber
     config.encoding = "utf-8"
 
     # Configure sensitive parameters which will be filtered from the log file.
-    config.filter_parameters += [:password, :password_confirmation]
+    config.filter_parameters += [:password]
 
     # Enable the asset pipeline
     config.assets.enabled = true
