@@ -29,3 +29,4 @@ gem "database_cleaner", ">= 0.6.7", :group => :test
 gem "launchy", ">= 2.0.5", :group => :test
 gem "thin"
 gem "heroku"
+gem "minitest", :group => :test
