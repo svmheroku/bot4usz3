@@ -76,6 +76,11 @@ GEM
     ffi (1.0.9)
     gherkin (2.5.2)
       json (>= 1.4.6)
+    haml (3.1.3)
+    haml2slim (0.4.6)
+      haml (>= 3.0)
+      nokogiri
+      ruby_parser
     heroku (2.9.0)
       launchy (>= 0.3.2)
       rest-client (~> 1.6.1)
@@ -154,6 +159,8 @@ GEM
       ruby-debug-base19 (>= 0.11.19)
     ruby_core_source (0.1.5)
       archive-tar-minitar (>= 0.5.2)
+    ruby_parser (2.3.1)
+      sexp_processor (~> 3.0)
     rubyzip (0.9.4)
     sass (3.1.10)
     sass-rails (3.1.4)
@@ -167,10 +174,15 @@ GEM
       ffi (>= 1.0.7)
       json_pure
       rubyzip
+    sexp_processor (3.0.7)
+    slim (1.0.2)
+      temple (~> 0.3.3)
+      tilt (~> 1.3.2)
     sprockets (2.0.2)
       hike (~> 1.2)
       rack (~> 1.0)
       tilt (!= 1.3.0, ~> 1.1)
+    temple (0.3.4)
     term-ansicolor (1.0.7)
     thin (1.2.11)
       daemons (>= 1.0.9)
@@ -199,6 +211,8 @@ DEPENDENCIES
   cucumber-rails (>= 1.1.1)
   database_cleaner (>= 0.6.7)
   factory_girl_rails (>= 1.2.0)
+  haml
+  haml2slim
   heroku
   jquery-rails
   launchy (>= 2.0.5)
@@ -208,6 +222,7 @@ DEPENDENCIES
   rspec-rails (>= 2.6.1)
   ruby-debug19
   sass-rails (~> 3.1.4)
+  slim
   thin
   turn
   uglifier (>= 1.0.3)

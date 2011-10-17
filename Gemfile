@@ -30,3 +30,10 @@ gem "launchy", ">= 2.0.5", :group => :test
 gem "thin"
 gem "heroku"
 gem "minitest", :group => :test
+
+gem 'slim'
+gem 'haml'
+
+gem 'haml2slim', :group => [:development, :test]
+
+
