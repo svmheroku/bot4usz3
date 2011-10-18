@@ -1,0 +1,2 @@
+class FxNewController < ApplicationController
+end

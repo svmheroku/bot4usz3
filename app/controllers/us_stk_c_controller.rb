@@ -1,0 +1,2 @@
+class UsStkCController < ApplicationController
+end
