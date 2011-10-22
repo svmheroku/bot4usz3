@@ -38,4 +38,6 @@ gem 'haml2slim', :group => [:development, :test]
 
 gem 'hpricot', :group => [:development, :test]
 
+gem 'foreman', :group => [:development, :test]
+
 
