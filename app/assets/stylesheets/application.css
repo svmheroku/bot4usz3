@@ -13,4 +13,4 @@ pre.bash{background-color: #EEEEEE; color: #006600;}
 pre.rlanguage{background-color: #EEEEEE; color: #660000;}
 
 /* foundation changes */
-.row { width: 100%; max-width: 1280px; min-width: 727px; margin: 0 auto; }
+.row { width: 100%; min-width: 727px; margin: 0 auto; }
