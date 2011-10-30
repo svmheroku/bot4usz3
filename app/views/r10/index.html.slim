@@ -15,7 +15,15 @@ br/
 | You will find the predictions here ->
 a(href="/predictions")Predictions
 hr/
-img(src="/images/us_stk_sunday.png")
+| Click on the image below to see graphical results for US Stock predictions:
+br/
+a#a_us_stk_sunday(href="#")
+  img(src="/images/us_stk_sunday.png" width="400")
+br/
+br/
+|Click on the image below to see graphical results for FOREX Currency predictions:
+br/
+a#a_fx_sunday(href="#")
+  img(src="/images/fx_sunday.png" width="400")
 hr/
-img(src="/images/fx_sunday.png")
-hr/
+=render :partial => 'img_sunday_png'
