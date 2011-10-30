@@ -6,20 +6,22 @@
     $("div#img_fx_sunday_png").hide();
 
     $("a#a_us_stk_sunday").click(function(event){
-      $("div#img_us_stk_sunday_png").dialog({ minWidth: 900 });
+      event.preventDefault();
+      $("div#img_us_stk_sunday_png").dialog({minWidth: 900,buttons: { "Ok": function() { $(this).dialog("close"); } } });
     });
 
     $("a#a_fx_sunday").click(function(event){
-      $("div#img_fx_sunday_png").dialog({ minWidth: 900 });
+      event.preventDefault();
+      $("div#img_fx_sunday_png").dialog({minWidth: 900,buttons: { "Ok": function() { $(this).dialog("close"); } } });
     });
 
   });
 
-#img_us_stk_sunday_png
+#img_us_stk_sunday_png(title="Data Plot Of...")
   %img(src="/images/us_stk_sunday.png")
   %br/
   %br/
-#img_fx_sunday_png
+#img_fx_sunday_png(title="Data Plot Of...")
   %img(src="/images/fx_sunday.png")
   %br/
   %br/
