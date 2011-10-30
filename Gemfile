@@ -41,5 +41,3 @@ gem 'hpricot', :group => [:development, :test]
 gem 'foreman', :group => [:development, :test]
 
 gem "zurb-foundation", :group => :assets
-
-gem 'fancybox-rails'
