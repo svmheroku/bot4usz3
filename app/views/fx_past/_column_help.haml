@@ -17,47 +17,58 @@
     $("div#help4_standarddeviationofnormalized5hrgains").hide();
 
     $("a.data_description").click(function(event){
-      $("div#help4_data_description").dialog({ minWidth: 300 });
+      event.preventDefault();
+      $("div#help4_data_description").dialog({ minWidth: 300, buttons: { "Ok": function() { $(this).dialog("close"); } } });
     });
 
     $("a.currencypair").click(function(event){
-      $("div#help4_currencypair").dialog({ minWidth: 300 });
+      event.preventDefault();
+      $("div#help4_currencypair").dialog({ minWidth: 300, buttons: { "Ok": function() { $(this).dialog("close"); } } });
     });
 
     $("a.avgdanbotscore").click(function(event){
-      $("div#help4_avgdanbotscore").dialog({ minWidth: 550 });
+      event.preventDefault();
+      $("div#help4_avgdanbotscore").dialog({ minWidth: 790, buttons: { "Ok": function() { $(this).dialog("close"); } } });
     });
 
     $("a.sharperatio").click(function(event){
-      $("div#help4_sharperatio").dialog({ minWidth: 550 });
+      event.preventDefault();
+      $("div#help4_sharperatio").dialog({ minWidth: 790, buttons: { "Ok": function() { $(this).dialog("close"); } } });
     });
 
     $("a.avgofnormalized1hrgains").click(function(event){
-      $("div#help4_avgofnormalized1hrgains").dialog({ minWidth: 300 });
+      event.preventDefault();
+      $("div#help4_avgofnormalized1hrgains").dialog({ minWidth: 790, buttons: { "Ok": function() { $(this).dialog("close"); } } });
     });
 
     $("a.avgofnormalized5hrgains").click(function(event){
-      $("div#help4_avgofnormalized5hrgains").dialog({ minWidth: 300 });
+      event.preventDefault();
+      $("div#help4_avgofnormalized5hrgains").dialog({ minWidth: 790, buttons: { "Ok": function() { $(this).dialog("close"); } } });
     });
 
     $("a.countofpositions").click(function(event){
-      $("div#help4_countofpositions").dialog({ minWidth: 300 });
+      event.preventDefault();
+      $("div#help4_countofpositions").dialog({ minWidth: 300, buttons: { "Ok": function() { $(this).dialog("close"); } } });
     });
 
     $("a.sumofnormalized5hrgains").click(function(event){
-      $("div#help4_sumofnormalized5hrgains").dialog({ minWidth: 300 });
+      event.preventDefault();
+      $("div#help4_sumofnormalized5hrgains").dialog({ minWidth: 300, buttons: { "Ok": function() { $(this).dialog("close"); } } });
     });
 
     $("a.minofnormalized5hrgains").click(function(event){
-      $("div#help4_minofnormalized5hrgains").dialog({ minWidth: 300 });
+      event.preventDefault();
+      $("div#help4_minofnormalized5hrgains").dialog({ minWidth: 500, buttons: { "Ok": function() { $(this).dialog("close"); } } });
     });
 
     $("a.maxofnormalized5hrgains").click(function(event){
-      $("div#help4_maxofnormalized5hrgains").dialog({ minWidth: 300 });
+      event.preventDefault();
+      $("div#help4_maxofnormalized5hrgains").dialog({ minWidth: 300, buttons: { "Ok": function() { $(this).dialog("close"); } } });
     });
 
     $("a.standarddeviationofnormalized5hrgains").click(function(event){
-      $("div#help4_standarddeviationofnormalized5hrgains").dialog({ minWidth: 300 });
+      event.preventDefault();
+      $("div#help4_standarddeviationofnormalized5hrgains").dialog({ minWidth: 500, buttons: { "Ok": function() { $(this).dialog("close"); } } });
     });
   });
 
