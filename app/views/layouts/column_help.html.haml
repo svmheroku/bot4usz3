@@ -7,11 +7,11 @@
     %link{:href => "/assets/application.css", :rel => "stylesheet", :type => "text/css"}/
     %script(src="/assets/application.js" type="text/javascript")
     %script(src="/jqui/js/jquery-ui-1.8.12.custom.min.js" type="text/javascript")
-  %body
+  %body.bot4us
     / layouts/column_help.html.haml
     .container
-      .row
-        .2.columns
+      .row.bot4us
+        .1.columns
           %hr/
           %h3
             %a{:href => "http://Bot4.us"} Bot4.us
@@ -21,7 +21,7 @@
           We use a robot.
           %hr/
           = render :partial => "layouts/lhs_links"
-        .10.columns
+        .11.columns
           %hr/
           = yield
           = render :partial => "column_help"

@@ -13,4 +13,9 @@ pre.bash{background-color: #EEEEEE; color: #006600;}
 pre.rlanguage{background-color: #EEEEEE; color: #660000;}
 
 /* foundation changes */
-.row { width: 100%; max-width: 1280px; min-width: 727px; margin: 0 auto; }
+.row.bot4us{max-width:1280px;margin-left:100px}
+body.bot4us{color: black; font-size: 15px; line-height: 20px;}
+body.bot4us a{color: blue;}
+body.bot4us a.external:hover{background-color: #dddddd; color: black; font-weight:bold}
+body.bot4us a:hover{background-color: yellow; color: black; font-weight:bold}
+
