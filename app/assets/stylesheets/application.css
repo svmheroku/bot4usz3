@@ -3,19 +3,18 @@
  * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
  * the top of the compiled file, but it's generally better to create a new file per style scope.
  *= require_self
- *= require foundation
  *= require_tree . 
 */
 
+/* These declarations are mostly used in my blog to style code in screen dumps */
 pre {font-weight:bold; font-family:"Courier New";}
 pre.sql{background-color: #EEEEEE; color: #000088;}
 pre.bash{background-color: #EEEEEE; color: #006600;}
 pre.rlanguage{background-color: #EEEEEE; color: #660000;}
 
-/* foundation changes */
-.row.bot4us{max-width:1280px;margin-left:100px}
-body.bot4us{color: black; font-size: 15px; line-height: 20px;}
-body.bot4us a{color: blue;}
-body.bot4us a.external:hover{background-color: #dddddd; color: black; font-weight:bold}
-body.bot4us a:hover{background-color: yellow; color: black; font-weight:bold}
-
+/* These declarations are used in app/views/layouts */
+table#table_layout>tbody>tr.tr_layout>td.td_layout{padding-left: 50px;}
+/* I want anchors to be close to normal but a little different */
+a { color:#0000bb; }
+a:visited { color:#0000bb; }
+a:hover { background-color: #dddddd; color:#bb0000; }
