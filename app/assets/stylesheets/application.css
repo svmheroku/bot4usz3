@@ -12,9 +12,14 @@ pre.sql{background-color: #EEEEEE; color: #000088;}
 pre.bash{background-color: #EEEEEE; color: #006600;}
 pre.rlanguage{background-color: #EEEEEE; color: #660000;}
 
-/* These declarations are used in app/views/layouts */
-table#table_layout>tbody>tr.tr_layout>td.td_layout{padding-left: 50px;}
 /* I want anchors to be close to normal but a little different */
 a { color:#0000bb; }
 a:visited { color:#0000bb; }
-a:hover { background-color: #dddddd; color:#bb0000; }
+a:hover { background-color: white; color:#bb0000; }
+/* rounded corners in css3 */
+.round_corner15px {
+-moz-border-radius: 15px;
+border-radius: 15px;
+} 
+td>div#td_div_lhs {background-color: #dddddd; margin-left: 50px; padding-left:15px; padding-right:15px; padding-top:6px}
+td>div#td_div_rhs {background-color: #eeeeee; margin-left: 20px; padding-left:15px; padding-right:15px; padding-top:6px}
