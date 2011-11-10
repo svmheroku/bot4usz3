@@ -23,3 +23,7 @@ border-radius: 15px;
 } 
 td>div#td_div_lhs {background-color: #dddddd; margin-left: 50px; padding-left:15px; padding-right:15px; padding-top:6px}
 td>div#td_div_rhs {background-color: #eeeeee; margin-left: 20px; padding-left:15px; padding-right:15px; padding-top:6px}
+/* zebra stripes for tables */
+div#td_div_rhs>table { border: 1px solid black; width: 100%; }
+div#td_div_rhs>table>tbody>tr:nth-child(2n) { background: none repeat scroll 0 0 #F9F9F9; }
+
