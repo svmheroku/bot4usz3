@@ -6,11 +6,7 @@
  *= require_tree . 
 */
 
-/* These declarations are mostly used in my blog to style code in screen dumps */
-pre {font-weight:bold; font-family:"Courier New";}
-pre.sql{background-color: #EEEEEE; color: #000088;}
-pre.bash{background-color: #EEEEEE; color: #006600;}
-pre.rlanguage{background-color: #EEEEEE; color: #660000;}
+body {font-family: Verdana,Arial,sans-serif,Georgia; font-size:18px;}
 
 /* I want anchors to be close to normal but a little different */
 a { color:#0000bb; }
@@ -23,10 +19,24 @@ border-radius: 15px;
 } 
 td>div#td_div_lhs {
   background-color: #dddddd; margin-left: 50px; padding-left:15px;
-  padding-right:15px; padding-top:6px; width:222px;
+  padding-right:15px; padding-top:6px;
 }
 td>div#td_div_rhs {background-color: #eeeeee; margin-left: 20px; padding-left:15px; padding-right:15px; padding-top:6px}
 /* zebra stripes for tables */
 div#td_div_rhs>table { border: 1px solid black; width: 100%; }
 div#td_div_rhs>table>tbody>tr:nth-child(2n) { background: none repeat scroll 0 0 #F9F9F9; }
 
+div#td_div_lhs form>input.input_lhs_links {color: blue;}
+
+/* These declarations are mostly used in my blog to style code in screen dumps */
+pre { 
+  font-weight: 600;
+  font-family: monospace,"Courier New",Terminal;
+  font-size: 18px; 
+  border: 1px solid black;
+  background-color: #FFFFFF;
+}
+
+pre.sql{ color: #000088;}
+pre.bash{ color: #006600;}
+pre.rlanguage{ color: #660000;}
