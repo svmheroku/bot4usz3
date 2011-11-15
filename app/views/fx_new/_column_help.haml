@@ -15,43 +15,53 @@
     $("div#help4_gmttimeathour6timetocloseposition").hide();
 
     $("a.data_description").click(function(event){
-      $("div#help4_data_description").dialog({ minWidth: 300 });
+      event.preventDefault();
+      $("div#help4_data_description").dialog({ minWidth: 300, buttons: { "Ok": function() { $(this).dialog("close"); } } });
     });
 
     $("a.currencypair").click(function(event){
-      $("div#help4_currencypair").dialog({ minWidth: 300 });
+      event.preventDefault();
+      $("div#help4_currencypair").dialog({ minWidth: 500, buttons: { "Ok": function() { $(this).dialog("close"); } } });
     });
 
     $("a.gmttimeathour6(timetocloseposition)").click(function(event){
-      $("div#help4_gmttimeathour6(timetocloseposition)").dialog({ minWidth: 300 });
+      event.preventDefault();
+      $("div#help4_gmttimeathour6(timetocloseposition)").dialog({ minWidth: 850 });
     });
 
     $("a.gmttimeathour0").click(function(event){
-      $("div#help4_gmttimeathour0").dialog({ minWidth: 300 });
+      event.preventDefault();
+      $("div#help4_gmttimeathour0").dialog({ minWidth: 700, buttons: { "Ok": function() { $(this).dialog("close"); } } });
     });
 
     $("a.danbotscoreathour0").click(function(event){
-      $("div#help4_danbotscoreathour0").dialog({ minWidth: 550 });
+      event.preventDefault();
+      $("div#help4_danbotscoreathour0").dialog({ minWidth: 800, buttons: { "Ok": function() { $(this).dialog("close"); } } });
     });
 
     $("a.scoretype").click(function(event){
-      $("div#help4_scoretype").dialog({ minWidth: 300 });
+      event.preventDefault();
+      $("div#help4_scoretype").dialog({ minWidth: 300, buttons: { "Ok": function() { $(this).dialog("close"); } } });
     });
 
     $("a.priceathour0").click(function(event){
-      $("div#help4_priceathour0").dialog({ minWidth: 300 });
+      event.preventDefault();
+      $("div#help4_priceathour0").dialog({ minWidth: 700, buttons: { "Ok": function() { $(this).dialog("close"); } } });
     });
 
     $("a.priceafter1hour").click(function(event){
-      $("div#help4_priceafter1hour").dialog({ minWidth: 300 });
+      event.preventDefault();
+      $("div#help4_priceafter1hour").dialog({ minWidth: 400, buttons: { "Ok": function() { $(this).dialog("close"); } } });
     });
 
     $("a.normalized1hrgain").click(function(event){
-      $("div#help4_normalized1hrgain").dialog({ minWidth: 300 });
+      event.preventDefault();
+      $("div#help4_normalized1hrgain").dialog({ minWidth: 800, buttons: { "Ok": function() { $(this).dialog("close"); } } });
     });
 
     $("a.gmttimeathour6timetocloseposition").click(function(event){
-      $("div#help4_gmttimeathour6timetocloseposition").dialog({ minWidth: 300 });
+      event.preventDefault();
+      $("div#help4_gmttimeathour6timetocloseposition").dialog({ minWidth: 800, buttons: { "Ok": function() { $(this).dialog("close"); } } });
     });
   });
 
