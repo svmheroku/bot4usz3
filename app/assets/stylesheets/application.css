@@ -40,3 +40,6 @@ pre {
 pre.sql{ color: #000088;}
 pre.bash{ color: #006600;}
 pre.rlanguage{ color: #660000;}
+
+/* Color the jquery-ui-dialogs */
+.ui-widget-header { color: #0000BB; }

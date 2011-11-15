@@ -16,43 +16,53 @@
     $("div#help4_standarddeviationof24hrgains").hide();
 
     $("a.data_description").click(function(event){
-      $("div#help4_data_description").dialog({ minWidth: 300 });
+      event.preventDefault();
+      $("div#help4_data_description").dialog({ minWidth: 300, buttons: { "Ok": function() { $(this).dialog("close"); } } });
     });
 
     $("a.stockticker").click(function(event){
-      $("div#help4_stockticker").dialog({ minWidth: 300 });
+      event.preventDefault();
+      $("div#help4_stockticker").dialog({ minWidth: 600, buttons: { "Ok": function() { $(this).dialog("close"); } } });
     });
 
     $("a.avgtickerpriceathour0").click(function(event){
-      $("div#help4_avgtickerpriceathour0").dialog({ minWidth: 300 });
+      event.preventDefault();
+      $("div#help4_avgtickerpriceathour0").dialog({ minWidth: 800, buttons: { "Ok": function() { $(this).dialog("close"); } } });
     });
 
     $("a.avgdanbotscoreathour0").click(function(event){
-      $("div#help4_avgdanbotscoreathour0").dialog({ minWidth: 550 });
+      event.preventDefault();
+      $("div#help4_avgdanbotscoreathour0").dialog({ minWidth: 800, buttons: { "Ok": function() { $(this).dialog("close"); } } });
     });
 
     $("a.sharperatio").click(function(event){
-      $("div#help4_sharperatio").dialog({ minWidth: 550 });
+      event.preventDefault();
+      $("div#help4_sharperatio").dialog({ minWidth: 800, buttons: { "Ok": function() { $(this).dialog("close"); } } });
     });
 
     $("a.avg1hrgain").click(function(event){
-      $("div#help4_avg1hrgain").dialog({ minWidth: 300 });
+      event.preventDefault();
+      $("div#help4_avg1hrgain").dialog({ minWidth: 400, buttons: { "Ok": function() { $(this).dialog("close"); } } });
     });
 
     $("a.avg24hrgain").click(function(event){
-      $("div#help4_avg24hrgain").dialog({ minWidth: 300 });
+      event.preventDefault();
+      $("div#help4_avg24hrgain").dialog({ minWidth: 800, buttons: { "Ok": function() { $(this).dialog("close"); } } });
     });
 
     $("a.countofpositions").click(function(event){
-      $("div#help4_countofpositions").dialog({ minWidth: 300 });
+      event.preventDefault();
+      $("div#help4_countofpositions").dialog({ minWidth: 400, buttons: { "Ok": function() { $(this).dialog("close"); } } });
     });
 
     $("a.sumof24hrgains").click(function(event){
-      $("div#help4_sumof24hrgains").dialog({ minWidth: 300 });
+      event.preventDefault();
+      $("div#help4_sumof24hrgains").dialog({ minWidth: 500, buttons: { "Ok": function() { $(this).dialog("close"); } } });
     });
 
     $("a.standarddeviationof24hrgains").click(function(event){
-      $("div#help4_standarddeviationof24hrgains").dialog({ minWidth: 300 });
+      event.preventDefault();
+      $("div#help4_standarddeviationof24hrgains").dialog({ minWidth: 800, buttons: { "Ok": function() { $(this).dialog("close"); } } });
     });
 
   });
