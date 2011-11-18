@@ -43,3 +43,5 @@ pre.rlanguage{ color: #660000;}
 
 /* Color the jquery-ui-dialogs */
 .ui-widget-header { color: #0000BB; }
+/* Color the jquery-ui-anchors */
+.ui-widget-content a { color: #0000BB; }

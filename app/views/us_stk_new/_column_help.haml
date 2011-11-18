@@ -15,35 +15,43 @@
     $("div#help4_gmttimeathour24timetocloseposition").hide();
 
     $("a.data_description").click(function(event){
-      $("div#help4_data_description").dialog({ minWidth: 300 });
+      event.preventDefault();
+      $("div#help4_data_description").dialog({ minWidth: 310, buttons: { "Ok": function() { $(this).dialog("close"); } } });
     });
 
     $("a.stockticker").click(function(event){
-      $("div#help4_stockticker").dialog({ minWidth: 300 });
+      event.preventDefault();
+      $("div#help4_stockticker").dialog({ minWidth: 330, buttons: { "Ok": function() { $(this).dialog("close"); } } });
     });
 
     $("a.gmttimeathour0").click(function(event){
-      $("div#help4_gmttimeathour0").dialog({ minWidth: 300 });
+      event.preventDefault();
+      $("div#help4_gmttimeathour0").dialog({ minWidth: 500, buttons: { "Ok": function() { $(this).dialog("close"); } } });
     });
 
     $("a.priceathour0").click(function(event){
-      $("div#help4_priceathour0").dialog({ minWidth: 300 });
+      event.preventDefault();
+      $("div#help4_priceathour0").dialog({ minWidth: 800, buttons: { "Ok": function() { $(this).dialog("close"); } } });
     });
 
     $("a.danbotscoreathour0").click(function(event){
-      $("div#help4_danbotscoreathour0").dialog({ minWidth: 550 });
+      event.preventDefault();
+      $("div#help4_danbotscoreathour0").dialog({ minWidth: 800, buttons: { "Ok": function() { $(this).dialog("close"); } } });
     });
 
     $("a.scoretype").click(function(event){
-      $("div#help4_scoretype").dialog({ minWidth: 300 });
+      event.preventDefault();
+      $("div#help4_scoretype").dialog({ minWidth: 330, buttons: { "Ok": function() { $(this).dialog("close"); } } });
     });
 
     $("a.gainathour1").click(function(event){
-      $("div#help4_gainathour1").dialog({ minWidth: 300 });
+      event.preventDefault();
+      $("div#help4_gainathour1").dialog({ minWidth: 330, buttons: { "Ok": function() { $(this).dialog("close"); } } });
     });
 
     $("a.gmttimeathour24timetocloseposition").click(function(event){
-      $("div#help4_gmttimeathour24timetocloseposition").dialog({ minWidth: 300 });
+      event.preventDefault();
+      $("div#help4_gmttimeathour24timetocloseposition").dialog({ minWidth: 600, buttons: { "Ok": function() { $(this).dialog("close"); } } });
     });
 
   });
