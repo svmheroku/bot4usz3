@@ -1,0 +1,35 @@
+Kaggle's Contests: Crunching Numbers for Fame and Glory
+The startup's competitions lure PhDs and whiz kids to solve companies' data problems
+
+A couple years ago, Netflix held a contest to improve its algorithm for recommending movies. It posted a bunch of anonymized information about how people rate films, then challenged the public to best its own Cinematch algorithm by 10 percent. About 51,000 people in 186 countries took a crack at it. (The winner was a seven-person team that included scientists from AT&T Labs.) The $1 million prize was no doubt responsible for much of the interest. But the fervor pointed to something else as well: The world is full of data junkies looking for their next fix.
+
+In April 2010, Anthony Goldbloom, an Australian economist, decided to capitalize on that urge. He founded a company called Kaggle to help businesses of any size run Netflix-style competitions. The customer supplies a data set, tells Kaggle the question it wants answered, and decides how much prize money it’s willing to put up. Kaggle shapes these inputs into a contest for the data-crunching hordes. To date, about 25,000 people—including thousands of PhDs—have flocked to Kaggle to compete in dozens of contests backed by Ford, Deloitte, Microsoft, and other companies. The interest convinced investors, including PayPal co-founder Max Levchin, Google Chief Economist Hal Varian, and Web 2.0 kingpin Yuri Milner, to put $11 million into the company in November.
+
+The startup’s growth corresponds to a surge in Silicon Valley’s demand for so-called data scientists, who are able to pull business and technical insights out of mounds of information. Big Web shops like Facebook and Google use these scientists to refine advertising algorithms. Elsewhere, they’re revamping how retailers promote goods and helping banks detect fraud.
+
+Big companies have sucked up the majority of the information all-stars, leaving smaller outfits scrambling. But Goldbloom, who previously worked at the Reserve Bank of Australia and the Australian Treasury, contends there are plenty of bright data geeks willing to work on tough problems. “There is not a lack of talent,” he says. “It’s just that the people who tend to excel at this type of work aren’t always that good at communicating their talents.”
+
+One way to find them, Goldbloom believes, is to make Kaggle into the geek equivalent of the Ultimate Fighting Championship. Every contest has a scoreboard. Math and computer science whizzes from places like IBM and the Massachusetts Institute of Technology tend to do well, but there are some atypical participants, including glaciologists, archeologists, and curious undergrads. Momchil Georgiev, for instance, is a senior software engineer at the National Oceanic and Atmospheric Administration. By day he verifies weather forecast data. At night he turns into “SirGuessalot” and goes up against more than 500 people trying predict what day of the week people will visit a supermarket and how much they’ll spend. (The sponsor is dunnhumby, an adviser to grocery chains like Tesco.) “To be honest, it’s gotten a little bit addictive,” says Georgiev.
+
+Eric Huls, a vice-president at Allstate, says many of his company’s math whizzes have been drawn to Kaggle. “The competition format makes Kaggle unique compared to working within the context of a traditional company,” says Huls. “There is a good deal of pride and prestige that comes with objectively having bested hundreds of other people that you just can’t find in the workplace.”
+
+Allstate decided to piggyback on Kaggle’s appeal and last July offered a $10,000 prize to see if it could improve the way it prices automobile insurance policies. In particular, the company wanted to examine if certain characteristics of a car made it more likely to be involved in an accident that resulted in a bodily injury claim. Allstate turned over two years’ worth of data that included variables like a car’s horsepower, size, and number of cylinders, and anonymized accident histories. “This is not a new problem, but we were interested to see if the contestants would approach it differently than we have traditionally,” Huls says. “We found the best models in the competition did improve upon the models we built internally.”
+
+
+Good Guesswork
+This Issue
+Previous Next
+
+Ford ran a contest to figure out ways to distinguish an alert driver from a tired driver. More than 200 players spent three months on the challenge. One of the top contestants—who goes by the handle Swedish Chef—was Christopher Hefele, an engineer at the vaunted AT&T Labs who finished second in the Netflix contest. Hefele submitted 25 different entries to the alert-driver competition, which offered up only $950 in total prize money. (He placed fourth.)
+
+By far the most lucrative prize on Kaggle is a $3 million reward offered by Heritage Provider Network to the person who can most accurately forecast which patients will be admitted to a hospital within the next year by looking at their past insurance claims data. More than 1,000 people have downloaded the anonymized data that covers four years of hospital visits, and they have until April 2013 to post answers.
+
+Jeremy Howard, another Aussie, serves as Kaggle’s chief scientist. He’s an entrepreneur who joined Kaggle after doing well in some of its competitions, including one on forecasting chess player ratings. He’s now refining the way the company designs competitions and is hiring sharp data scientists. “The Netflix prize took like a year to set everything up,” Howard says, and Kaggle’s eight-person team has a backlog of 170 proposed contests to work through. “We want to create a system that is more like an EBay auction.” Kaggle currently charges clients fixed fees totaling $20,000 for each contest, plus $10,000 a month.
+
+Moving forward, Kaggle plans to instead take a cut of the prize money and also to emphasize invitation-only competitions. The idea is to let companies put sensitive information on Kaggle and have only 10 to 15 people analyze it. Kaggle will help select the ideal candidates to tackle the problem. “If you want to be invited to these competitions, you have to perform well in the others,” Howard says. The hope is that a biotech company might feel comfortable enough to release data about a potential breakthrough drug that’s still under wraps.
+
+Howard’s dream is for Kaggle to get big enough that some contestants can give up their day jobs. “These guys should be earning as much as hedge fund managers and golfers,” he says.
+
+The bottom line: Kaggle, a startup with $11 million in funding, wants companies to be more comfortable applying the wisdom of crowds to sensitive data.
+
+Vance is a technology writer for Bloomberg Businessweek. 
