@@ -4,15 +4,22 @@
   $(document).ready(function() {
     $("div#img_us_stk_sunday_png").hide();
     $("div#img_fx_sunday_png").hide();
+    $("div#img_fx_sunday2011_png").hide();
+    $("div#img_fx_sunday2012_png").hide();
 
     $("a#a_us_stk_sunday").click(function(event){
       event.preventDefault();
       $("div#img_us_stk_sunday_png").dialog({minWidth: 900,buttons: { "Ok": function() { $(this).dialog("close"); } } });
     });
 
-    $("a#a_fx_sunday").click(function(event){
+    $("a#a_fx_sunday2011").click(function(event){
       event.preventDefault();
-      $("div#img_fx_sunday_png").dialog({minWidth: 900,buttons: { "Ok": function() { $(this).dialog("close"); } } });
+      $("div#img_fx_sunday2011_png").dialog({minWidth: 900,buttons: { "Ok": function() { $(this).dialog("close"); } } });
+    });
+
+    $("a#a_fx_sunday2012").click(function(event){
+      event.preventDefault();
+      $("div#img_fx_sunday2012_png").dialog({minWidth: 900,buttons: { "Ok": function() { $(this).dialog("close"); } } });
     });
 
   });
@@ -23,5 +30,14 @@
   %br/
 #img_fx_sunday_png(title="Data Plot Of...")
   %img(src="/images/fx_sunday.png")
+  %br/
+  %br/
+
+#img_fx_sunday2011_png(title="Data Plot Of...")
+  %img(src="/images/fx_sunday2011.png")
+  %br/
+  %br/
+#img_fx_sunday2012_png(title="Data Plot Of...")
+  %img(src="/images/fx_sunday2012.png")
   %br/
   %br/
